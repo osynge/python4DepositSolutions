@@ -97,7 +97,6 @@ def invalid_month():
     return "invalid_month"
 
 
-
 def numbers_to_months(argument):
     switcher = {
         1: one,
