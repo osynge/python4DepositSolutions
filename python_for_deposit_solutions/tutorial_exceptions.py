@@ -89,9 +89,9 @@ def why_we_want_to_use_with():
     """
     # not so nice code
     for line in open("myfile.txt"):
-        print(line, end="")
+        print(line)
 
     # nicer code uses 'with'
     with open("myfile.txt") as f:
         for line in f:
-            print(line, end="")
+            print(line)
