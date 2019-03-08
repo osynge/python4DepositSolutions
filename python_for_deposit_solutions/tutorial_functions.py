@@ -4,7 +4,7 @@ Example of flow control and the case statement
 
 
 def conditional_example():
-    x = int(raw_input("Please enter an integer: "))
+    x = int(input("Please enter an integer: "))
     if x < 0:
         x = 0
         print('Negative changed to zero')
@@ -93,6 +93,11 @@ def twelve():
     return "December"
 
 
+def invalid_month():
+    return "invalid_month"
+
+
+
 def numbers_to_months(argument):
     switcher = {
         1: one,
@@ -109,6 +114,6 @@ def numbers_to_months(argument):
         12: twelve
     }
     # Get the function from switcher dictionary
-    func = switcher.get(argument, lambda: "Invalid month")
+    func = switcher.get(argument, invalid_month)
     # Execute the function
     print(func())
