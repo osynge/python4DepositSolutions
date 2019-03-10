@@ -116,3 +116,7 @@ def string_join():
     """
     s = ['dog', 'lion', 'snake', 'elephant', 'cow', 'donkey', 'goat', 'duck']
     return ' '.join(s)
+
+
+def string_from_byte_array():
+    return b"abcde".decode("utf-8") 
