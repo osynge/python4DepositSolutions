@@ -119,4 +119,4 @@ def string_join():
 
 
 def string_from_byte_array():
-    return b"abcde".decode("utf-8") 
+    return b"abcde".decode("utf-8")
