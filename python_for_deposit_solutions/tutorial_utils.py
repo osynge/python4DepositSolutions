@@ -4,7 +4,7 @@ import subprocess
 # analagous to the unix command which but with memoization functions.
 try:
     from salt.utils import which as find_executable
-except:
+except ImportError:
     from distutils.spawn import find_executable
 
 log = logging.getLogger(__name__)
