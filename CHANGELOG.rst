@@ -4,6 +4,46 @@ python4DepositSolutions Change Log
 
 .. current developments
 
+
+v0.0.4
+====================
+
+**Added**:
+
+* list examples
+
+**Changed:** None
+
+**Deprecated:** None
+
+**Removed:** None
+
+**Fixed:**
+
+* Syntax for tutorial_exceptions.why_we_want_to_use_with()
+
+**Security:** None
+
+
+v0.0.3
+====================
+
+**Added**:
+
+* string examples
+
+**Changed:** None
+
+**Deprecated:** None
+
+**Removed:** None
+
+**Fixed:**
+
+* Syntax for tutorial_exceptions.why_we_want_to_use_with()
+
+**Security:** None
+
 v0.0.2
 ====================
 
