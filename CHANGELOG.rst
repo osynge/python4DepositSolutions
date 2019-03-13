@@ -5,6 +5,24 @@ python4DepositSolutions Change Log
 .. current developments
 
 
+v0.0.5
+====================
+
+**Added**:
+
+* dict examples
+
+**Changed:** None
+
+**Deprecated:** None
+
+**Removed:** None
+
+**Fixed:** None
+
+**Security:** None
+
+
 v0.0.4
 ====================
 
@@ -18,9 +36,7 @@ v0.0.4
 
 **Removed:** None
 
-**Fixed:**
-
-* Syntax for tutorial_exceptions.why_we_want_to_use_with()
+**Fixed:** None
 
 **Security:** None
 
@@ -38,9 +54,7 @@ v0.0.3
 
 **Removed:** None
 
-**Fixed:**
-
-* Syntax for tutorial_exceptions.why_we_want_to_use_with()
+**Fixed:** None
 
 **Security:** None
 
